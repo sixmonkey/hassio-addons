@@ -1,0 +1,26 @@
+{
+  "name": "Feste-IP.Net DDNS Updater",
+  "version": "1",
+  "slug": "fest_ip_updater",
+  "description": "Updater for Feste-IP.Net DDNS",
+  "arch": [
+    "armhf",
+    "armv7",
+    "aarch64",
+    "amd64",
+    "i386"
+  ],
+  "host_network": true,
+  "startup": "before",
+  "boot": "auto",
+  "options": {
+    "host_id": "",
+    "host_password": "",
+    "hostname": ""
+  },
+  "schema": {
+    "host_id": "str",
+    "host_password": "str",
+    "hostname": "str"
+  }
+}
